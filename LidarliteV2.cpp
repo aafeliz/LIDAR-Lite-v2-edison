@@ -1,21 +1,3 @@
-/*#include "Lidar/Lidar.hpp"
-#include <iostream>
-
-LIDARLite lidar;
-int distance = 66;
-int main()
-{
-	lidar.begin();
-
-	while(1)
-	{
-		distance = lidar.distance();//(false, false, LIDARI2C_ADDRESS);
-		std::cout << distance << std::endl;
-		sleep(1);
-	}
-}
-*/
-
 
 #include <iostream>
 #include <stdio.h>
